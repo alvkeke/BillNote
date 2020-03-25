@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bill Note</string>
+    <string name="testText_date">11/28</string>
+    <string name="testText_typename">typename</string>
+    <string name="testText_note">note</string>
+    <string name="testText_money">money</string>
+    <string name="title_hidden_layout_delete">删除</string>
+</resources>

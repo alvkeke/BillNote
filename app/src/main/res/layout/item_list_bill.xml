@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/show_view_item_bill"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_l_r_bill_item"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_time_item_bill"
+            android:text="@string/testText_date"
+            android:layout_marginStart="@dimen/margin_l_r_bill_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/im_icon_item_bill"
+            android:layout_marginStart="@dimen/margin_l_r_bill_item"
+            android:layout_marginEnd="@dimen/margin_l_r_bill_item"
+            android:layout_width="@dimen/size_h_w_icon_bill_item"
+            android:layout_height="@dimen/size_h_w_icon_bill_item"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_marginEnd="@dimen/margin_l_r_bill_item"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_typename_item_bill"
+                android:text="@string/testText_typename"
+                android:textSize="18sp"
+                android:textColor="@color/color_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_note_item_bill"
+                android:text="@string/testText_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_money_item_bill"
+            android:text="@string/testText_money"
+            android:textSize="20sp"
+            android:textColor="@color/color_black"
+            android:layout_marginEnd="@dimen/margin_l_r_bill_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hidden_view_item_bill"
+        android:text="@string/title_hidden_layout_delete"
+        android:textColor="@color/color_hidden_layout_font"
+        android:gravity="center"
+        android:background="@color/color_hidden_layout_background"
+        android:layout_width="@dimen/width_hidden_layout"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

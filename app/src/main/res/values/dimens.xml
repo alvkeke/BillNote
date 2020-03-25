@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_h_w_icon_bill_item">30dp</dimen>
+    <dimen name="margin_l_r_bill_item">5dp</dimen>
+    <dimen name="margin_t_b_bill_item">5dp</dimen>
+    <dimen name="width_hidden_layout">96dp</dimen>
+</resources>
